@@ -9,13 +9,13 @@ import routes from './routes';
 import DevTools from './DevTools';
 
 ReactDOM.render(
-    <Provider store={store}>
-        <div>
-            <Router history={hashHistory} routes={routes}/>
-            <DevTools />
-        </div>
-    </Provider>,
-    document.getElementById('root')
+	<Provider store={store}>
+		<div>
+			<Router history={hashHistory} routes={routes}/>
+			<DevTools />
+		</div>
+	</Provider>,
+	document.getElementById('root')
 );
 registerServiceWorker();
 

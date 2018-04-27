@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 //import 'bootstrap/dist/css/bootstrap-theme.css';
 
-
 const Navigation = props => (
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
